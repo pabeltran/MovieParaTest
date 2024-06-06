@@ -130,6 +130,7 @@ namespace MvcMovie.Controllers
         {
             if (id == null || _context.Movies == null)
             {
+                //aca no programaron porque hicieron scafolding
                 return NotFound();
             }
 
